@@ -5,6 +5,13 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] - 2025-05-19
+
+### Fixed
+
+- Fix for ZapStore process
+- Fix for Android versionCode
+
 ## [0.2.2] - 2025-05-19
 
 ### Fixed
@@ -113,6 +120,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.2.3]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.3
 [0.2.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.2
 [0.2.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.1
 [0.2.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.0
