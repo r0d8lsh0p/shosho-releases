@@ -5,6 +5,25 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2025-05-27
+
+### Added
+- Configure zapstream from inside shosho
+- Tag users by pressing them in chat
+- Handling for more chat message inclusions, npubs, nprofiles, URLs, etc, in chat and on profile page
+
+### Improved
+- Use zapstream free tier by default
+- Profile and message loading and caching
+
+### Fixed
+- Corrected fonts and colours
+- Amber signer auth timeout
+- Lengthen zapstream API call caching
+- Zaps show correct amounts
+- Use users relays
+- Try again to get on zapstore!
+
 ## [0.2.3] - 2025-05-19
 
 ### Fixed
@@ -120,6 +139,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.3.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.3.0
 [0.2.3]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.3
 [0.2.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.2
 [0.2.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.2.1
