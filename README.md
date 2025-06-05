@@ -9,23 +9,30 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 - **RTMP Broadcasting**: High-quality live video streaming
 - **Nostr Integration**: Use your Nostr npub, announce your stream live on Nostr clients like Zap.stream and Amethyst
 - **Live Chat**: See your mentions and stream chat live and respond in the app
+- **Browse Lives**: Discover featured lives and streamers
+- **Livestream Viewer**: Watch lives and replays in full screen
 - **Zap Integration**: Receive zaps from your viewers and get paid to stream
 
 ## Installation
 
 ### Android
 
-#### Option 1: Direct APK Download
+#### From GitHub
 1. Download the latest APK from the [releases page](https://github.com/r0d8lsh0p/shosho-releases/releases)
 2. Enable "Install from Unknown Sources" in your device settings
 3. Open the downloaded APK to install
 
-#### Option 2: Using Obtainium
+#### From Obtainium
 1. Install [Obtainium](https://github.com/ImranR98/Obtainium) from F-Droid or GitHub
 2. Add Shosho using the GitHub source: `r0d8lsh0p/shosho-releases`
 3. Install and receive automatic updates
 
-#### Option 3: Google Play Store
+#### From ZapStore
+1. Install [Zapstore](https://zapstore.dev/)
+2. Search for "shosho"
+3. Install and receive automatic updates
+
+#### Google Play Store
 Shosho will also be available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.shosho.app) – Work In Progress!
 
 ## Changelog
