@@ -5,6 +5,12 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.2] - 2025-06-24
+
+### Fixed
+
+- Reverted Android configuration to maintain compatibility with existing installations
+
 ## [0.6.1] - 2025-06-24
 
 **NOTE:** Users who experienced blocking and freezing on streams may try this updated version, hopefully we have fixed it temporarily by reducing the bandwidth requirements. Please give your feedback, if this has worked, we will make it configurable and adaptive to network conditions in future versions.
@@ -233,6 +239,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.6.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.2
 [0.6.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.1
 [0.5.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.5.1
 [0.5.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.5.0
