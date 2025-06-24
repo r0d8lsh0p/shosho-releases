@@ -5,6 +5,34 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.1] - 2025-06-24
+
+**NOTE:** Users who experienced blocking and freezing on streams may try this updated version, hopefully we have fixed it temporarily by reducing the bandwidth requirements. Please give your feedback, if this has worked, we will make it configurable and adaptive to network conditions in future versions.
+
+### Added
+
+- shosho now on both Android and iOS
+- released to TestFlight on iOS
+- handling for more bech32 kinds
+
+### Changed
+
+- RTMP streaming library updated
+- RTMP settings update to remove blocking and freezing
+- Default relays changed to WOT, reduced spam for new users
+- More elegant permission requests
+- Expo version updated
+- Minor UI improvements
+
+### Fixed
+
+- Text layout on certain profile bios
+- Text layout on certain chat messages
+- Keyboard handling in certain situations
+- Navigation from profile to profile
+- Lazy loading of prior streams in profile page
+- More minor bugs crushed
+
 ## [0.5.1] - 2025-06-12
 
 ### Fixed
@@ -205,6 +233,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.6.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.1
 [0.5.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.5.1
 [0.5.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.5.0
 [0.4.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.4.1

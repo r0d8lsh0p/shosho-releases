@@ -1,8 +1,24 @@
 # shosho – Live Stream on Nostr
 
+<p align="center">
+  <img src="./images/Banner.png" alt="Shosho Banner" width="800"/>
+</p>
+
 Stream your camera and chat with your friends and followers on Nostr live!
 
 Shosho is a mobile app that enables live streaming over RTMP with Nostr integration, similar to Facebook Live but built on the Nostr protocol. It streams to zap.stream servers and announces your stream to the Nostr network, creating a seamless experience for you as a streamer, and for your friends and followers on Nostr.
+
+<p align="center">
+  <a href="https://github.com/r0d8lsh0p/shosho-releases/releases">
+    <img src="./images/badge_github.png" alt="Get it on GitHub" width="180"/>
+  </a>
+  <a href="https://github.com/ImranR98/Obtainium">
+    <img src="./images/badge_obtainium.png" alt="Get it on Obtainium" width="180"/>
+  </a>
+  <a href="https://zapstore.dev/">
+    <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/>
+  </a>
+</p>
 
 ## Features
 
