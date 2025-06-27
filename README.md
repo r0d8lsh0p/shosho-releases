@@ -11,22 +11,21 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 <p align="center">
   <a href="https://github.com/r0d8lsh0p/shosho-releases/releases">
     <img src="./images/badge_github.png" alt="Get it on GitHub" width="180"/>
-  </a>
-  <a href="https://github.com/ImranR98/Obtainium">
+  </a><a href="https://github.com/ImranR98/Obtainium">
     <img src="./images/badge_obtainium.png" alt="Get it on Obtainium" width="180"/>
-  </a>
-  <a href="https://zapstore.dev/">
-    <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/>
+  </a><a href="https://zapstore.dev/">
+    <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/><a href="https://zapstore.dev/">
+    <img src="./images/badge_testflight.png" alt="Available on Apple TestFlight" width="180"/>
   </a>
 </p>
 
 ## Features
 
-- **RTMP Broadcasting**: High-quality live video streaming
-- **Nostr Integration**: Use your Nostr npub, announce your stream live on Nostr clients like Zap.stream and Amethyst
+- **Live Stream Broadcasting**: live video streaming with RTMP
+- **Nostr Native**: Use your Nostr npub, announce your stream live on Nostr clients like shosho, Zap.stream, and Amethyst
 - **Live Chat**: See your mentions and stream chat live and respond in the app
-- **Browse Lives**: Discover featured lives and streamers
-- **Livestream Viewer**: Watch lives and replays in full screen
+- **Find Lives**: Discover featured lives and streamers
+- **Join Lives**: Join livestreams and watch replays in full screen
 - **Zap Integration**: Receive zaps from your viewers and get paid to stream
 
 ## Installation
@@ -49,7 +48,18 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 3. Install and receive automatic updates
 
 #### Google Play Store
-Shosho will also be available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.shosho.app) – Work In Progress!
+
+1. Message us on Nostr with your email address
+2. We invite you to join the shosho Closed Test group
+3. [Visit Play Store](https://play.google.com/store/apps/details?id=com.shosho.app) to Install and receive automatic updates
+
+### iOS
+
+#### From Apple TestFlight
+
+1. Visit [shosho on Apple TestFlight](https://testflight.apple.com/join/Cg4Ng6dq)
+2. Get the [TestFlight App from Apple](https://apps.apple.com/us/app/testflight/id899247664?mt=8) (if not already installed)
+3. Install shosho from TestFlight and receive automatic updates
 
 ## Changelog
 
@@ -61,4 +71,8 @@ This application is distributed as closed-source software for the moment. This A
 
 ## Support
 
-For support, message Rod on Nostr at npub1r0d8u8mnj6769500nypnm28a9hpk9qg8jr0ehe30tygr3wuhcnvs4rfsft
+For support please message us on Nostr
+
+- [Rod](http://njump.me/npub1r0d8u8mnj6769500nypnm28a9hpk9qg8jr0ehe30tygr3wuhcnvs4rfsft)
+- [shosho](http://njump.me/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
+
