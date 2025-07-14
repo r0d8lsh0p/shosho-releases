@@ -11,10 +11,14 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 <p align="center">
   <a href="https://github.com/r0d8lsh0p/shosho-releases/releases">
     <img src="./images/badge_github.png" alt="Get it on GitHub" width="180"/>
-  </a><a href="https://github.com/ImranR98/Obtainium">
+  </a>
+  <a href="https://github.com/ImranR98/Obtainium">
     <img src="./images/badge_obtainium.png" alt="Get it on Obtainium" width="180"/>
-  </a><a href="https://zapstore.dev/">
-    <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/><a href="https://zapstore.dev/">
+  </a>
+  <a href="https://zapstore.dev/">
+    <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/>
+  </a>
+  <a href="https://testflight.apple.com/join/Cg4Ng6dq">
     <img src="./images/badge_testflight.png" alt="Available on Apple TestFlight" width="180"/>
   </a>
 </p>

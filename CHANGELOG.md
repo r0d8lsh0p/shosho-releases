@@ -5,6 +5,38 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2025-07-14
+
+### Added
+
+- More speed and stability!
+- Improved error handling and messaging when failing to connect
+
+### Changed
+
+- Improved loading on splash screen so broadcast is more responsive
+- Improved focus handling so all screens respond immediately instead of being held up by last screen's subscriptions
+- Tidied up safe view areas, headers, and animations throughout the app
+- Refactored browse streams screen and streams view on profile screen for speed and stability with context, cache, store, and improved pagination
+- Refactored chat panel for speed and stability with context, cache, store, and process note contents prior to rendering them for less jumping around
+- Refactored contexts to improve performance and remove unnecessary reloads of chat panel
+- Improved profile loading batching to avoid relay timeouts
+- Better error messaging when streaming server cannot be connected
+- More improvements for small and old phones
+- Improved routes for deeplinks from shosho.live website (coming soon)
+
+### Fixed
+
+- Replays and offline views no longer display unrelated emotes and zaps
+- Video player now respects safe area view
+- Bug where browse page wouldn't reload
+- But where swipeable UI would stop working
+- Many other bugs!
+
+### Removed
+
+- Mute button wouldn't unmute on iOS
+
 ## [0.6.4] - 2025-06-27
 
 ### Added
@@ -261,6 +293,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.7.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.7.0
 [0.6.4]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.4
 [0.6.3]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.3
 [0.6.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.2
