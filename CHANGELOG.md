@@ -5,6 +5,33 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0] - 2025-01-08
+
+### Added
+
+- Set up and stream to any RTMP server not just Zap.Stream
+- Your live stream appears on Nostr no matter which server you choose
+- Added server screen
+- Ability to configure multiple servers
+- Select from your choice of server
+- Settings for Generic and Nostr stream providers
+- Set custom stream metadata for each server
+
+### Changed
+
+- Stream Confirmation Buttomsheet now directs to Servers
+- Nostr stream providers rely upon server to publish your live event
+- Generic stream providers publish your live event from shosho
+
+### Fixed
+
+- Bugged error states on connection failures for iOS
+- UX improvements for smaller phones, landscape mode, Nostr Stream Provider setup and onboarding
+
+### Notes with Amber
+
+If you use Amber Signer, please set to automatically approve 30311 events from Shosho. If instead you leave Amber with manual approval on 30311 events Shosho may leave your live stream mid-stream to request a signature, which is a little annoying when you are live!
+
 ## [0.7.0] - 2025-07-14
 
 ### Added
@@ -293,6 +320,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.8.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.8.0
 [0.7.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.7.0
 [0.6.4]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.4
 [0.6.3]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.3

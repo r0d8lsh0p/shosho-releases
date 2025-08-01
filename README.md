@@ -23,16 +23,17 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
   </a>
 </p>
 
-## Features
+## Shosho Features
 
 - **Live Stream Broadcasting**: live video streaming with RTMP
-- **Nostr Native**: Use your Nostr npub, announce your stream live on Nostr clients like shosho, Zap.stream, and Amethyst
 - **Live Chat**: See your mentions and stream chat live and respond in the app
 - **Find Lives**: Discover featured lives and streamers
 - **Join Lives**: Join livestreams and watch replays in full screen
+- **Nostr Native**: Use your Nostr npub, announce your stream live on Nostr clients like Shosho, Zap.Stream, and Amethyst
+- **Use Any Server**: Stream to Zap.Stream or any other RTMP server you like
 - **Zap Integration**: Receive zaps from your viewers and get paid to stream
 
-## Installation
+## Install Shosho
 
 ### Android
 
@@ -65,6 +66,17 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 2. Get the [TestFlight App from Apple](https://apps.apple.com/us/app/testflight/id899247664?mt=8) (if not already installed)
 3. Install shosho from TestFlight and receive automatic updates
 
+## Use Any Streaming Server
+
+You can set up shosho to broadcast to any streaming server of your choice, either a Nostr streaming server like Zap.Stream or any Generic RTMP server. Regardless of what you choose your stream event will be broadcast over Nostr so that users of Shosho, Zap.Stream, Amethyst and others can find and view your stream. 
+
+Follow these steps:
+
+| Step 1 | Step 2 | Step 3 |
+|--------|--------|--------|
+| <img src="./images/Streaming-Server-Setup-1.png" alt="Server Setup Step 1" width="200"/> | <img src="./images/Streaming-Server-Setup-2.png" alt="Server Setup Step 2" width="200"/> | <img src="./images/Streaming-Server-Setup-3.png" alt="Server Setup Step 3" width="200"/> |
+| Press the server <br />to configure your servers. | Add new or select <br />an existing server. | Supports Nostr or <br />Generic RTMP servers. |
+
 ## Changelog
 
 See the [CHANGELOG.md](CHANGELOG.md) for a detailed history of changes.
@@ -79,4 +91,3 @@ For support please message us on Nostr
 
 - [Rod](http://njump.me/npub1r0d8u8mnj6769500nypnm28a9hpk9qg8jr0ehe30tygr3wuhcnvs4rfsft)
 - [shosho](http://njump.me/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
-
