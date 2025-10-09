@@ -1,4 +1,4 @@
-# shosho – Live Stream on Nostr
+# Shosho – Live Stream on Nostr
 
 <p align="center">
   <img src="./images/Banner.png" alt="Shosho Banner" width="800"/>
@@ -9,6 +9,9 @@ Stream your camera and chat with your friends and followers on Nostr live!
 Shosho is a mobile app that enables live streaming over RTMP with Nostr integration, similar to Facebook Live but built on the Nostr protocol. It streams to zap.stream servers and announces your stream to the Nostr network, creating a seamless experience for you as a streamer, and for your friends and followers on Nostr.
 
 <p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.shosho.app">
+    <img src="./images/badge_playstore.png" alt="Get it on GitHub" width="180"/>
+  </a>
   <a href="https://github.com/r0d8lsh0p/shosho-releases/releases">
     <img src="./images/badge_github.png" alt="Get it on GitHub" width="180"/>
   </a>
@@ -37,38 +40,40 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 
 ### Android
 
+#### From Google Play Store
+
+1. Visit [Shosho on Google Play Store](https://play.google.com/store/apps/details?id=com.shosho.app)
+2. Install and receive automatic updates
+
 #### From GitHub
+
 1. Download the latest APK from the [releases page](https://github.com/r0d8lsh0p/shosho-releases/releases)
 2. Enable "Install from Unknown Sources" in your device settings
 3. Open the downloaded APK to install
 
 #### From Obtainium
+
 1. Install [Obtainium](https://github.com/ImranR98/Obtainium) from F-Droid or GitHub
 2. Add Shosho using the GitHub source: `r0d8lsh0p/shosho-releases`
 3. Install and receive automatic updates
 
 #### From ZapStore
+
 1. Install [Zapstore](https://zapstore.dev/)
 2. Search for "shosho"
 3. Install and receive automatic updates
-
-#### Google Play Store
-
-1. Message us on Nostr with your email address
-2. We invite you to join the shosho Closed Test group
-3. [Visit Play Store](https://play.google.com/store/apps/details?id=com.shosho.app) to Install and receive automatic updates
 
 ### iOS
 
 #### From Apple TestFlight
 
-1. Visit [shosho on Apple TestFlight](https://testflight.apple.com/join/Cg4Ng6dq)
+1. Visit [Shosho on Apple TestFlight](https://testflight.apple.com/join/Cg4Ng6dq)
 2. Get the [TestFlight App from Apple](https://apps.apple.com/us/app/testflight/id899247664?mt=8) (if not already installed)
 3. Install shosho from TestFlight and receive automatic updates
 
 ## Use Any Streaming Server
 
-You can set up shosho to broadcast to any streaming server of your choice, either a Nostr streaming server like Zap.Stream or any Generic RTMP server. Regardless of what you choose your stream event will be broadcast over Nostr so that users of Shosho, Zap.Stream, Amethyst and others can find and view your stream. 
+You can set up Shosho to broadcast to any streaming server of your choice, either a Nostr streaming server like Zap.Stream or any Generic RTMP server. Regardless of what you choose your stream event will be broadcast over Nostr so that users of Shosho, Zap.Stream, Amethyst and others can find and view your stream. 
 
 Follow these steps:
 
@@ -90,4 +95,4 @@ This application is distributed as closed-source software for the moment. This A
 For support please message us on Nostr
 
 - [Rod](http://njump.me/npub1r0d8u8mnj6769500nypnm28a9hpk9qg8jr0ehe30tygr3wuhcnvs4rfsft)
-- [shosho](http://njump.me/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
+- [Shosho](http://njump.me/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
