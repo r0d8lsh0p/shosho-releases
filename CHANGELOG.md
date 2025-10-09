@@ -5,6 +5,39 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2025-10-08
+
+### Added
+
+- Improved browse screen now with more lives and replays, less spam
+- Responsive for browsing on tablets and larger devices
+- Share your live stream and profile for followers to join you on shosho.live
+- Links to shosho.live deep link into the app on iOS and Android
+- More options on chat messages, profiles and lives including: reply, copy text, copy note ID, delete, hide, mute, report
+- Delete your old streams function works with both self-hosted and Zap Stream APIs (will publish a Kind 5 for self-hosted streams or connect to a Nostr Streaming Server API for hosted streams)
+- Global Shosho mute list for hiding spam and test users
+- Connecting and Disconnecting states on broadcast screen
+- Display custom emojis in chat
+
+### Changed
+
+- Improved broadcast screen and going-live UX
+- Improved browse screen scroll
+- Moved browse menu into a menu drawer (click your profile to see your new menu)
+- Navigate to streamer profiles from browse screen
+- Faster connections to Nostr stream chat
+- Refactored go live process for consistency and handling of errors and failures
+- Refactored Expo, Yarn, contexts and other plumbing to run app and web on same code
+
+### Fixed
+
+- Fixed integration with the new Zap Stream Core backend. Back to "one click to go live"
+- Bugs with Auth context, duplicate Amber signing requests, and adding new servers
+- Server settings tells you which server you're on
+- Lots more attention paid to iOS-specific bugs
+- Profile paths use npub not hexpub
+- Readme links to Play Store
+
 ## [0.8.0] - 2025-01-08
 
 ### Added
@@ -320,6 +353,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.9.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.9.0
 [0.8.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.8.0
 [0.7.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.7.0
 [0.6.4]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.6.4
