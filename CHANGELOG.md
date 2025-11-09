@@ -5,6 +5,45 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.0] - 2025-11-10
+
+### Added
+
+- Picture in Picture mode
+- Lock screen playback controls
+- Camera screen to set your camera preferences
+- Remember camera facing preferences between sessions
+- Edit profile screen to build your streamer profile
+- Streamers can get custom URLs like shosho.live/nogood
+- Promote your live before you start, press "share" to send your followers to your custom URL
+- Nostr.build image uploads for profiles
+- Prompt new Nostr users for a username before chat
+- Pull to refresh on profiles, browse streams, server and camera settings
+- Improved handling for permissions denied on splash screen
+- Responsive controls condense on landscape mode
+- Push notifications ready
+
+### Changed
+
+- Improved handling of different cameras (especially on iPhone)
+- Improved handling of stream errors
+- Improved monitoring for streaming server disconnections
+- Automated testing
+
+### Fixed
+
+- Fall back to stream Thumbnail if Image is not available
+- Filter out 30311 events that are not .m3u8 live streams (e.g. Corny Chat)
+- More forgiving on some text fields in user-friendly ways
+- Minor bugs with caches, navigation
+
+### Note for iOS
+
+- We still have a bug that prevents some iOS handsets from going live to Zap.Stream server
+- Android works on any server
+- iOS works on any other server than Zap.Stream
+- We are working on this!
+
 ## [0.9.0] - 2025-10-08
 
 ### Added
@@ -353,6 +392,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.10.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.0
 [0.9.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.9.0
 [0.8.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.8.0
 [0.7.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.7.0
