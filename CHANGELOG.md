@@ -5,6 +5,14 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.1] - 2025-11-11
+
+### Fixed
+
+- Fixed: Android in-app Picture-in-Picture buttons were not pressable on some handsets
+- Fixed: Android regression on broadcast screen so that preview wasn't always full height on some handsets  
+- iOS required a "purpose string" for use of image permissions in edit profile
+
 ## [0.10.0] - 2025-11-10
 
 ### Added
@@ -392,6 +400,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.10.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.1
 [0.10.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.0
 [0.9.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.9.0
 [0.8.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.8.0
