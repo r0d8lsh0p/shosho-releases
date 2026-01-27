@@ -5,6 +5,37 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.11.0] - 2026-01-16
+
+### Added
+
+- New streaming server! Shosho Server is now our default server with recording and video on demand playback of your live streams
+- Room Presence! Shosho will publish when you join a live and show you who joined when you're live
+- Threaded Chats! Reply to messages and see threaded replies in busy chats
+- Login with Nostr Connect including on iOS! (works with Primal Remote Login)
+- Add new servers to your Shosho app by clicking links or scanning QR codes
+- Share servers between devices
+- Manage your relays in the app
+- Update your stream image with a simple uploader and save to nostr.build
+- Toasts on all UI actions (copy, mute, etc)
+
+### Changed
+
+- Faster chat messaging
+- Wider delete publishing
+- Added QR codes for lightning payments
+- Upgraded to Expo 54
+
+### Fixed
+
+- Fixed old Zap Sream server details, now updated to the new zap stream API URL (use this or the new Shosho Server if you prefer)
+- Fixed bug where mute lists would not persist on chats
+- Fixed ToS URL for custom Nostr servers
+- Fixed some deep links not deep linking
+- Fixed many other small bugs and improved UI
+- Smoother PiP transitions
+- Updated all Testflight links to full Apple Store release
+
 ## [0.10.1] - 2025-11-11
 
 ### Fixed
@@ -400,6 +431,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.11.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.11.0
 [0.10.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.1
 [0.10.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.0
 [0.9.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.9.0
