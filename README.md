@@ -12,17 +12,16 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
   <a href="https://play.google.com/store/apps/details?id=com.shosho.app">
     <img src="./images/badge_playstore.png" alt="Get it on GitHub" width="180"/>
   </a>
-  <a href="https://github.com/r0d8lsh0p/shosho-releases/releases">
-    <img src="./images/badge_github.png" alt="Get it on GitHub" width="180"/>
-  </a>
   <a href="https://github.com/ImranR98/Obtainium">
     <img src="./images/badge_obtainium.png" alt="Get it on Obtainium" width="180"/>
   </a>
   <a href="https://zapstore.dev/">
     <img src="./images/badge_zapstore.png" alt="Get it on ZapStore" width="180"/>
   </a>
-  <a href="https://testflight.apple.com/join/Cg4Ng6dq">
-    <img src="./images/badge_testflight.png" alt="Available on Apple TestFlight" width="180"/>
+</p>
+<p align="center">
+  <a href="https://apps.apple.com/za/app/shosho-live-stream-on-nostr/id6747323179">
+    <img src="./images/badge_appstore.png" alt="Download on the App Store" width="160"/>
   </a>
 </p>
 
@@ -65,11 +64,10 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 
 ### iOS
 
-#### From Apple TestFlight
+#### From Apple App Store
 
-1. Visit [Shosho on Apple TestFlight](https://testflight.apple.com/join/Cg4Ng6dq)
-2. Get the [TestFlight App from Apple](https://apps.apple.com/us/app/testflight/id899247664?mt=8) (if not already installed)
-3. Install shosho from TestFlight and receive automatic updates
+1. Visit [Shosho on the App Store](https://apps.apple.com/za/app/shosho-live-stream-on-nostr/id6747323179)
+2. Install and receive automatic updates
 
 ## Use Any Streaming Server
 
