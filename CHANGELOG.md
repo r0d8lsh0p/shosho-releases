@@ -5,6 +5,25 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.12.0] - 2026-02-12
+
+### Added
+
+- Clips! Watch video clips from your favourite creators and reply to Clips in the player. Compatible with Divine, Plebs, Olas and other great Nostr apps
+- Custom Emojis! Use your emojito.meme emojis in your chat by pressing ":"
+- Hell Thread Protection. You can now turn off indirect mentions in app settings to prevent spam
+- Improved playback view for landscape videos, similar to Twitch playback
+- Share Profiles with QR codes
+- Improved profiles for your favourite streamers
+
+### Changed
+
+- Browse streams screen updated to include clips from featured creators
+
+### Fixed
+
+- Minor bug fixes
+
 ## [0.11.1] - 2026-01-30
 
 ### Added
@@ -432,6 +451,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.12.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.12.0
 [0.11.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.11.1
 [0.10.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.1
 [0.10.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.0
