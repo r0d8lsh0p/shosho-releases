@@ -5,6 +5,26 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.13.0] - 2026-02-27
+
+### Added
+
+- Download your replays as MP4s by pressing Download from stream card menu
+- NIP-05 verification for Nostr profiles
+
+### Changed
+
+- Improved streaming performance
+- Migrated RTMP publisher to Expo Modules API and New Architecture
+- Improved presentation of bech32 IDs in chat
+
+### Fixed
+
+- Improved streaming connections on lower bandwidth
+- Fixed certain streaming crashes on old devices
+- Fixed streaming with iOS devices to Zap.Stream server 
+- Fixed a bug where camera preferences were not being respected
+
 ## [0.12.0] - 2026-02-12
 
 ### Added
@@ -451,6 +471,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.13.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.13.0
 [0.12.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.12.0
 [0.11.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.11.1
 [0.10.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.10.1
