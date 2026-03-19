@@ -5,6 +5,31 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.14.0] - 2026-03-12
+
+### Added
+
+- The launch of Shosho Shop! Link to your products directly from your live streams and clips. There is nothing to set up – All your Nostr products will automatically appear in your Shosho Shop, and your friends and followers can click through to purchase from your page on Plebeian Market
+- Follow streamers from the app, and get push notifications when they go live
+- Subscription to each Host's relays so you don't miss chat messages
+- Auto-reconnection on relay disconnects for long-lived streams
+
+### Changed
+
+- Added Shop tab to all Shosho profiles
+- Added Shop to Browse Screen and made sideways scrolling
+- Added In-Live Shop button to all Lives and Clips
+- Improved performance and speed on Browse Screen
+- Removed Nostr.Band from default relays
+- Added mute button to iOS broadcast
+- General performance improvements
+
+### Fixed
+
+- Fixed bug that muted audio on iOS when camera changed on broadcast
+- Fixed bug where mute button did not work on Android on broadcast
+- Fixed browse screen only showing a handful of featured streamers
+
 ## [0.13.0] - 2026-02-27
 
 ### Added
@@ -471,6 +496,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.14.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.14.0
 [0.13.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.13.0
 [0.12.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.12.0
 [0.11.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.11.1
