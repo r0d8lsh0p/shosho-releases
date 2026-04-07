@@ -5,6 +5,25 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.15.0] - 2026-04-07
+
+### Added
+
+- Shows! Set up custom show info before you go live, and connect your show to OBS or any encoder
+- TikTok-style vertical video carousel! Swipe through lives, clips, and replays in a full-screen feed
+- Quick Add for Shows, Clips, and Products – publish video clips and add products directly from your profile
+
+### Changed
+
+- Refreshed UI across clips and products
+- More featured streamers, clippers, and sellers in the browse screen
+
+### Fixed
+
+- Fixed "Live Now" showing on profiles after streams had ended
+- Fixed some streams not playing back correctly
+- Fixed some product descriptions displaying incorrectly in Shop
+
 ## [0.14.0] - 2026-03-12
 
 ### Added
@@ -496,6 +515,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.15.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.0
 [0.14.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.14.0
 [0.13.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.13.0
 [0.12.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.12.0
