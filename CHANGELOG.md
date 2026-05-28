@@ -5,6 +5,27 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.16.0] - 2026-05-26
+
+### Added
+
+- Shosho Shopping Cart! Add products to cart and check out without leaving the stream
+- Shosho Seller Hub! A fully featured backend for selling your products on Shosho – create a Shop, list products, set stock locations and shipping, manage inventory, offer promotions, receive and fulfil orders, and more
+- Shosho Help Center! Everything you need to know to stream on Shosho and sell on Shosho Shopping Cart
+
+### Changed
+
+- Short video clips including Divine Clips are now available in the Shosho feed
+- More expansive featured content on the Browse screen from the Shosho WOT Relay
+- Use your Nostr identity to log in and manage your Shop
+- Faster loading of Clips and Streams on browse
+- Faster opening of lives when you land from a deep link
+
+### Fixed
+
+- Picture-in-Picture return-to-fullscreen now opens the correct video in the carousel
+- Many small UI and stability improvements
+
 ## [0.15.2] - 2026-04-09
 
 ### Fixed
@@ -529,6 +550,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[0.16.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.16.0
 [0.15.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.2
 [0.15.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.1
 [0.15.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.0
