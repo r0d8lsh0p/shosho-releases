@@ -1,12 +1,14 @@
-# Shosho – Live Stream on Nostr
+# Shosho — Live Streaming Marketplace
 
 <p align="center">
   <img src="./images/Banner.png" alt="Shosho Banner" width="800"/>
 </p>
 
-Stream your camera and chat with your friends and followers on Nostr live!
+**Shosho is a live streaming marketplace** where creators go live, and fans can back the people behind the shows. 
 
-Shosho is a mobile app that enables live streaming over RTMP with Nostr integration, similar to Facebook Live but built on the Nostr protocol. It streams to zap.stream servers and announces your stream to the Nostr network, creating a seamless experience for you as a streamer, and for your friends and followers on Nostr.
+With the Shosho app, creators can go live from their mobile phone, launch and manage live shows, and list products for sale in their shop. Viewers can discover what’s live, shop great products, and check out without ever leaving the show.
+
+Connect with real creators, shop their sales, and discover what's live now on Shosho.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.shosho.app">
@@ -27,13 +29,14 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 
 ## Shosho Features
 
-- **Live Stream Broadcasting**: live video streaming with RTMP
-- **Live Chat**: See your mentions and stream chat live and respond in the app
-- **Find Lives**: Discover featured lives and streamers
-- **Join Lives**: Join livestreams and watch replays in full screen
-- **Nostr Native**: Use your Nostr npub, announce your stream live on Nostr clients like Shosho, Zap.Stream, and Amethyst
-- **Use Any Server**: Stream to Zap.Stream or any other RTMP server you like
-- **Zap Integration**: Receive zaps from your viewers and get paid to stream
+- **Go Live** on a global network of live streaming sites and apps – Shosho, Zap Stream, Primal, Amethyst, and more
+- **Connect** with real creators and fans through notifications, mentions and live chat
+- **Discover** what’s on right now, with featured live streams, clips and creator profiles
+- **Shop** and support creators with live sales of unique products and merch without leaving the stream
+- **Own your profile** beyond Shosho – your audience and followers belong to you
+- **Break free** from lock-in – use Shosho’s server or bring your own. Download your replays. Your content is yours
+
+Shosho works with any **RTMP** server, **OBS** or any encoder, and broadcasts your live streams on the global **Nostr** network.
 
 ## Install Shosho
 
@@ -69,16 +72,11 @@ Shosho is a mobile app that enables live streaming over RTMP with Nostr integrat
 1. Visit [Shosho on the App Store](https://apps.apple.com/za/app/shosho-live-stream-on-nostr/id6747323179)
 2. Install and receive automatic updates
 
-## Use Any Streaming Server
+## Related Links
 
-You can set up Shosho to broadcast to any streaming server of your choice, either a Nostr streaming server like Zap.Stream or any Generic RTMP server. Regardless of what you choose your stream event will be broadcast over Nostr so that users of Shosho, Zap.Stream, Amethyst and others can find and view your stream. 
-
-Follow these steps:
-
-| Step 1 | Step 2 | Step 3 |
-|--------|--------|--------|
-| <img src="./images/Streaming-Server-Setup-1.png" alt="Server Setup Step 1" width="200"/> | <img src="./images/Streaming-Server-Setup-2.png" alt="Server Setup Step 2" width="200"/> | <img src="./images/Streaming-Server-Setup-3.png" alt="Server Setup Step 3" width="200"/> |
-| Press the server <br />to configure your servers. | Add new or select <br />an existing server. | Supports Nostr or <br />Generic RTMP servers. |
+- Find Shosho lives online at [https://shosho.live](https://shosho.live)
+- Get help in the Shosho help center at [https://help.shosho.live](https://help.shosho.live)
+- Connect with [Shosho on Nostr](https://jumble.social/users/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
 
 ## Changelog
 
@@ -86,11 +84,4 @@ See the [CHANGELOG.md](CHANGELOG.md) for a detailed history of changes.
 
 ## License
 
-This application is distributed as closed-source software for the moment. This APK is provided for installation purposes only. Redistribution is permitted, but modification is prohibited.
-
-## Support
-
-For support please message us on Nostr
-
-- [Rod](http://njump.me/npub1r0d8u8mnj6769500nypnm28a9hpk9qg8jr0ehe30tygr3wuhcnvs4rfsft)
-- [Shosho](http://njump.me/npub1sh0spghk4yvy2d2v35kelw45qq4msk6zykaw4ds047e9slzs8r4qr7q2xa)
+This application is distributed as closed-source software. This APK is provided for installation purposes only. Redistribution is permitted, but modification is prohibited.
