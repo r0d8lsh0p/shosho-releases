@@ -1,7 +1,7 @@
 # Shosho — Live Streaming Marketplace
 
 <p align="center">
-  <img src="./images/Banner.png" alt="Shosho Banner" width="800"/>
+  <img src="./images/Banner-1.png" alt="Shosho Banner" width="800"/>
 </p>
 
 **Shosho is a live streaming marketplace** where creators go live, and fans can back the people behind the shows. 
@@ -22,7 +22,7 @@ Connect with real creators, shop their sales, and discover what's live now on Sh
   </a>
 </p>
 <p align="center">
-  <a href="https://apps.apple.com/za/app/shosho-live-stream-on-nostr/id6747323179">
+  <a href="https://apps.apple.com/us/app/shosho-live-stream-on-nostr/id6747323179">
     <img src="./images/badge_appstore.png" alt="Download on the App Store" width="160"/>
   </a>
 </p>

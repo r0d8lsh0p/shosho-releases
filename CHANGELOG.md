@@ -5,6 +5,35 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - TBD
+
+### Added
+
+- Full app redesign! Shosho is putting content first. New home screen, carousel, bottom tab bar, and a one-tap creator menu to go live, add a show, clip, or product
+- Notifications! See your mentions, reactions, reposts, and zaps in one feed, and reply to any of them without leaving the app. Plus all the latest lives and clips from people you follow
+- Search! Search and jump to your favourite Creators, Lives, Clips, and Products on the Shosho Relay, or set your own search relays in settings
+- Instant live stream clipping! Create a clip from any live or replay and publish it without missing a live moment
+- Localised in 9 languages: English, French, German, Spanish, Portuguese, Chinese, Korean, Japanese, and Thai
+
+### Changed
+
+- Shosho is now a Live Streaming Marketplace — refreshed wording across the app
+- Clips you're tagged in now appear on your profile alongside your own clips
+- Smarter video display — landscape videos fit, clips fill the screen
+- Edge-to-edge display on older Android devices too, not just new ones
+- Featured creators now ranked by their most recent streams and clips
+- Improved threading and layout in chat panel
+- Improved support for clip replies and threaded replies
+- Performance improvements, faster profile loading, and less network traffic
+
+### Fixed
+
+- Improved Hell Thread Protection with "Hide Indirect Mentions" in settings
+- Live badge in the player now tracks the stream's real status on the network
+- Screen stays awake during playback as it should
+- Picture-in-Picture stability improvements on Android and iOS
+- Many small UI and stability improvements
+
 ## [0.16.0] - 2026-05-26
 
 ### Added
@@ -550,6 +579,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[1.0.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.0.0
 [0.16.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.16.0
 [0.15.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.2
 [0.15.1]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.1
