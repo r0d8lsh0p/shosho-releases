@@ -5,7 +5,27 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2026-07-29
+## [1.1.0] - 2026-08-31
+
+### Added
+
+- More live streams! Integrated live streams from the Livelier.live bridge so you will find more new creators, gamers, artists and live music
+- Improved curation of lives streams in the browse screen
+- Separated Live and Replay browse rails
+
+### Changed
+
+- Improved deep links now read from relay-hints
+- Improved sharing now shares with relay-hints
+- Improved stream chat reads and posts from live-stream’s chat relays
+- NSFW content is filtered from the browse screen
+- NSFW creators can tag their content "NSFW" on the Shows and Clips screens
+
+### Fixed
+
+- Improvements to revalidate stale cached profiles
+
+## [1.0.0] - TBD
 
 ### Added
 
@@ -579,6 +599,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[1.1.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.1.0
 [1.0.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.0.0
 [0.16.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.16.0
 [0.15.2]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.15.2
