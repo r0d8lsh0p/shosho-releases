@@ -5,6 +5,41 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-09-23
+
+### Added
+
+- Bitcoin Wallet – send and receive Bitcoin, view transaction history, and connect your preferred wallet. Use the built-in Shosho Wallet powered by Breez SDK, connect a Nostr Wallet Connect (NWC) wallet, or scan a QR code to connect an external wallet
+- Zaps – send tips from your Bitcoin wallet to other users
+- "Quick Zap" – configure a default amount for faster tipping
+- Zap Goals – set optional goals and track progress from zaps
+- Payment Addresses – get your own @shosho.live Lightning address
+- Fund your wallet – buy Bitcoin with MoonPay
+
+Plus:
+
+- Bitcoin checkout – buy products in the Shosho marketplace with Bitcoin from your wallet
+- Prices in your currency – select your display currency for all products and your wallet
+- Live viewer counts – on your go-live screen, every player and live stream card
+- Better clip uploads – file compression and hosting for bigger, longer videos
+- Stream Raids in chat – show raids from one stream to another in the stream chat
+- Clips in chat – show clips from the Instant Clipping in the stream chat
+
+### Changed
+
+- Nostr Relays, Streaming Servers, and Camera Settings moved to the Shosho Settings menu
+- Sellers can now have multiple shops and show them all in their profile
+- Enable/disable push notifications in settings
+- Refinements to the featured list and home carousel
+- Faster video loading
+- Faster startup
+- Better stream-end detection
+- Overall performance improvements
+
+### Fixed
+
+- Many minor bugs fixed in chat and startup
+
 ## [1.1.0] - 2026-08-31
 
 ### Added
@@ -599,6 +634,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[1.2.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.2.0
 [1.1.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.1.0
 [1.0.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.0.0
 [0.16.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v0.16.0
