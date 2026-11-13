@@ -5,6 +5,35 @@ All notable changes to Shosho will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-11-09
+
+### Added
+
+- Scheduled Shows – Schedule, share, and go live on upcoming shows from the app. Scheduled shows are broadcast to the network and promoted on your profile and the browse screen
+- Multi-streaming – Multi-stream to Nostr, YouTube, Twitch, Rumble and more by setting your multi-streaming destinations in the settings screen
+- Raids – Raid other streamers when ending your live stream. Your viewers will be sent to join that new live stream
+- Zap Goal Splits – Set multiple recipients for your Zap Goals, so your viewers can Zap your co-host, favourite creators, or whomever else you like, automatically split between parties
+
+### Changed
+
+- Picture-in-Picture mode is now automatic when you background the app
+- Improved shop search, categories and filters for large shops with many products
+- Featured creators can be hidden in the settings menu
+- Goals and raids have been added to your broadcast screen
+- Ending a live stream starts a three-second countdown
+- Extra protections to prevent accidentally wiping your follow list
+- Improved Amber integration now batches signature requests
+- Speed and quality-of-life improvements
+
+### Fixed
+
+- Can no longer launch the app onto an offline live stream
+- Animated custom emojis now animate correctly
+- Deleted relays now delete correctly
+- Opening a busy live stream from browse is faster and no longer opens it twice on repeated taps
+- Rotating the live player no longer flashes a light background while the layout catches up
+- Overall performance and stability enhancements
+
 ## [1.2.0] - 2026-09-23
 
 ### Added
@@ -634,6 +663,7 @@ This is the initial release of Shosho, a Nostr-native RTMP Live Streaming App.
 - iOS version
 - More
 
+[1.3.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.3.0
 [1.2.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.2.0
 [1.1.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.1.0
 [1.0.0]: https://github.com/r0d8lsh0p/shosho-releases/releases/tag/v1.0.0
